@@ -9,6 +9,10 @@
     "prepublish": "yarn run clean && yarn test && babel src/ --out-dir lib"
   },
   "author": "Wale Eseyin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ewdave/envmap.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "babel-cli": "^6.24.1",
