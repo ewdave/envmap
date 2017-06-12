@@ -1,0 +1,22 @@
+{
+  "name": "envmap",
+  "version": "1.0.0",
+  "description": "Environment Variables mapper",
+  "main": "lib/index.js",
+  "scripts": {
+    "clean": "rimraf lib",
+    "test": "jest",
+    "prepublish": "yarn run clean && yarn test && babel src/ --out-dir lib"
+  },
+  "author": "Wale Eseyin",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-jest": "^20.0.3",
+    "babel-preset-latest": "^6.24.1",
+    "jest": "^20.0.4",
+    "rimraf": "^2.6.1"
+  },
+  "dependencies": {}
+}
